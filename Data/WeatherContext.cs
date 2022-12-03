@@ -25,6 +25,7 @@ namespace BrezyWeather.Data
                 new Location { ID = 2, Name = "Kuala Lumpur", Country = "Malaysia", Zipcode = 50088 },
                 new Location { ID = 3, Name = "Shanghai", Country = "China", Zipcode = 200120 },
                 new Location { ID = 4, Name = "Tokyo", Country = "Japan", Zipcode = 049319 }
+                new Location { ID = 5, Name = "Bangalore", Country = "India", Zipcode = 560022 }
                 );
 
             modelBuilder.Entity<Weather>().HasData(
